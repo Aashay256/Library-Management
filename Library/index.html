@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Library Management</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="lbs.css">
+<script type="text/javascript">
+	function index() {
+		alert("First Login to Access our library.");
+	}
+</script>
+</head>
+<body class="bg">
+
+	
+<div class="header">
+	<h2 style="margin-top: 25px;">Library Management</h2><p id="date1" style="float: left;margin-top: 40px;font-weight: bold;"></p>
+		<script>
+			var d = new Date(); 
+		document.getElementById("date1").innerHTML = d.toDateString(); 
+		</script>
+
+
+	<button  class="button" onclick="location.href='login.php'" style="margin-top: 0px">Login</button>
+
+</div>
+	<p  class="welcome"><marquee behavior="scroll" direction="left" class="awesome" scrollamount="25">Welcome to the eLibrary</marquee><br><br>- View a current list of the top-rated books.<br>- All related to Engineering course<br>- Login for specifics</p> 		 
+<div  class="mainbody" >
+	
+	<div class="column"><img src="cBook.png" height="200" width="150"><palign="center"><code><p align="center"><br>Programming in C<br>by<br>E.Balagurusamy</p></code></div>	 
+    <div class="column"><img src="webpBook.png" height="200" width="150"><code><p align="center"><br>Mastering HTML,CSS & JavaScript<br>by<br>Laura Lemay<br>Rafe Colburn<br>Jennifer Kyrnin</p></code></div>
+    <div class="column"><img src="unixBook.png" height="200" width="150"><code><p align="center"><br>Your Unix<br>The Ultimate Guide<br>by<br>Sumitabha Das</p></code></div>
+    <div class="column"><img src="mathBook.png" height="200" width="150"><code><p align="center"><br>Advanced Engineering Mathemaics<br>by<br>Erwin Kreyszig </p></code></div>
+
+
+</div>
+
+
+	
+</div>
+
+ 
+<div class="footer">
+  <p align="center">This website is optimized for books. All books you can see here are related to education, but we cannot warrant full correctness of all content. While using this site, you agree to have read and accepted our terms of use, cookie and privacy policy. by Refsnes Data. All Rights Reserved 2018.<br><a href="index.html">Powered by Online Library Management</a></p>
+</div> 
+</body>
+</html>
+

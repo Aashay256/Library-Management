@@ -1,0 +1,209 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.bg{
+  background-image: url(bg.jpg);  
+  background-position: center;
+  background-attachment: fixed;
+  background-size: all; 
+
+}
+
+.header{
+
+    width: 99%;
+    height: 140px;
+    border: 3px solid rgb(100,450,500);
+	  padding: 22px 13px;
+    background-color: rgba(0,0,0, 0.4);
+    color: black;
+    z-index: 1;
+    margin :1px;
+    font-size: 2em;
+
+}
+
+.header h2{
+  font-family: cursive;
+  color: rgb(255,255,128);
+	text-align: center;
+}
+.header p{
+  opacity: 0.5;
+	font-size: 20px;
+	bottom: 20px;
+}
+
+.mainbody
+{
+  
+  position: absolute;
+  display:flex;
+  width: 40.33%;
+  
+  padding-left:270px;
+  padding-top: 40px; 
+  font-family: arial;
+
+}
+.column {
+   width: 97%;
+    height: 200px;
+    
+  border: 5px solid rgb(255,255,128);
+  color: #330033;
+  font-size: 15px;
+  margin-right: 90px;
+  width: 70%;
+  flex: 33.33%;
+  padding: 10px;
+}
+
+.button
+{ 
+
+    background-color: rgb(10,10,10);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 1390px;
+    cursor: pointer;
+    border-radius: 70%;
+}
+.button:hover{
+  background-color: green;
+}
+#myBtn
+ {
+  
+ padding-right: 10px;
+
+ }
+
+.footer {
+    font-size: 15px;
+    font-family:cursive;
+    position: absolute; ;
+    left: 0;
+    bottom: -300px;
+    width: 100%;
+    background-color: tomato;
+    color: white;
+    text-align: center;
+}
+.welcome
+{
+  font-style: bold;
+  font-family: cursive;;
+  font-size: 25px;
+  color:rgb(255,0,0);
+  padding-top: 100px;
+  padding-left: 50px;
+}
+.options{
+    margin-top: 50px;
+    width: 100%;
+}
+.options a{
+    display: block;
+    font-size: 20px;
+    color: white;
+    padding: 25px 20px;
+    text-decoration: none;
+    background-color: #333333;
+    width: 15%;
+
+}
+.options a:hover{
+  background-color: tomato;
+}
+
+.login-box{
+    max-width: 900px;
+    float: none;
+    margin: 150px auto;
+
+}
+.form-control{
+    background-color: transparent !important;
+}
+.w3-animate-bottom{position:relative;animation:animatebottom 0.4s}@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+
+.awesome {
+      
+      font-family: futura;
+      
+      width:100%;
+      
+      margin: 0 auto;
+      text-align: center;
+      
+      color:#313131;
+      font-size:45px;
+      font-weight: bold;
+      position: absolute;
+      -webkit-animation:colorchange 5s infinite alternate;
+      
+      
+    }
+
+    @-webkit-keyframes colorchange {
+      0% {
+        
+        color: white;
+      }
+      
+      10% {
+        
+        color: #8e44ad;
+      }
+      
+      20% {
+        
+        color: #1abc9c;
+      }
+      
+      30% {
+        
+        color: #d35400;
+      }
+      
+      40% {
+        
+        color: gold;
+      }
+      
+      50% {
+        
+        color: #34495e;
+      }
+      
+      60% {
+        
+        color: purple;
+      }
+      
+      70% {
+        
+        color: #009900;
+      }
+      80% {
+     
+        color: #f1c40f;
+      }
+      
+      90% {
+     
+        color: #800000;
+      }
+      
+      100% {
+        
+        color: pink;
+      }
+    }
